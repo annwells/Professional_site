@@ -1,0 +1,32 @@
+---
+title: "Bridging the Gap Between Traditional and Computational Biologists Through Open Science"
+date: last-modified
+date-format: iso
+author: "Ann Wells"
+format: 
+  html:
+    toc: true
+---
+
+I believe that open science can be used to bridge the gap between traditional and computational biologists. Current approaches often result in large data dumps and sharing scripts, which are difficult to reproduce, time consuming, and are often missing key pieces of information for full transparency.
+
+I developed a system that combines data analysis and links to other platforms that house code, data, shiny apps, and anything else you would like to be available. All of these components for a singular project are then packaged into a website that acts as a one stop shop for a research project.
+
+Building these websites has improved several aspects of my research and data analysis process:
+
+1.  They make it easier to talk with collaborators and share results in an intuitive way.
+
+2.  They make it easier to understand the outcome of an experiment and organize data in a way that will be accessible years after the project is complete.
+
+3.  They don’t require traditional biologists to understand your code but empower them to understand the steps of analysis that have been taken to arrive at an outcome creating richer discussions.
+
+4.  At the end of a project they can easily be publicly hosted for other researchers to investigate the entire analysis that was completed, not just what was presented in the accompanying journal article.
+
+::: {.card title="Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice"}
+
+[Data Resource Accompanying the paper: Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice](https://storage.googleapis.com/bl6_2dg_rnaseq/index.html)
+
+![Homepage](images/homepage_data_resource_B6_2DG.png)
+
+**Ann E. Wells**, John J. Wilson, John D. Sears, Jian Wei, Sarah E. Heuer, Raghav Pandey, Mauro W. Costa, Catherine C. Kaczorowski, Derry C. Roopenian, Chih‑Hao Chang, Gregory W. Carter. (2024) Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice. PLOS ONE 19(3): e0299595. https://doi.org/10.1371/journal.pone.0299595. [paper link](https://doi.org/10.1371/journal.pone.0299595){target="_blank"}
+:::

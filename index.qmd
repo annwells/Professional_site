@@ -1,0 +1,62 @@
+---
+title: "Ann Wells, Ph.D."
+---
+
+```{=html}
+<!---
+ ::: {.container-fluid} 
+--->
+```
+
+```{=html}
+<div class="p-5 mb-4 bg-light rounded-3 bgimg">
+  <br><br><br><br>
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold"></h1>
+    <!-- <a href="src/calendar.html" class="btn btn-primary btn-lg" type="button">Book an appointment</a> -->
+  </div>
+</div>
+<p class="lead">
+   <small class="text-hero">Open Science &emsp; | &emsp; Data Science &emsp; | &emsp; Systems Biology &emsp; | &emsp; Lupus Researcher</small>
+</p>
+<style type="text/css">
+.lead {
+    font-family: "Arial bold";
+    text-align: center;
+}
+
+.bgimg {
+  background-image: url('images/Ann.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.hero-quote {
+  font-family: "Zilla Slab";
+  font-color: white;
+  color: white;
+}
+
+.fw-bold {
+  /* font-family: "Zilla Slab Highlight"; */
+  font-style: bold !important;
+  color: white !important;
+}
+</style>
+```
+
+```{=html}
+<!---
+ ::: 
+--->
+```
+
+<br>
+
+Hi! I’m Ann and this is my website. I have a Ph.D. in Genome Science and Technology and a Master's in Statistics from the University of Tennessee-Knoxville. Currently, I am a postdoctoral associate at the Jackson Laboratory working in Dr. Gregory Carter's laboratory. I am wet and dry systems biologist that investigates systemic lupus erythematosus (SLE, lupus) using multiple -omics, multiple tissues, and potential therapeutics to tease out the molecular underpinnings that contribute to SLE progression.
+
+Additionally, I am a proponent of open science and developing novel ways of disseminating research that is transparent and reproducible while simultaneously bridging the gap between traditional and computational biologists.
+
+Outside of research I want to empower non-computational biologists to obtain the computational skills necessary to perform preliminary analyses on their own data. I do this through teaching and have also become a software carpentry instructor.
+
+When I’m not thinking about science I am often riding my bike on the beautiful park loop in Acadia National Park, going for hikes, working out, or generally enjoying the amazing island I live on.
