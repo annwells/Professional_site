@@ -9,32 +9,39 @@ website:
   page-footer: 
     center: |
       <br>
-      Copyright &copy; 2024 Ann Wells, Ph.D.<br>
+      Copyright &copy; 2025 Ann Wells, Ph.D.<br>
     
   navbar:
-    foreground: "white"
+    foreground: "#37013a"
     logo: "images/Ann.png"
     title: false
     pinned: false
     left:
     - text: "Welcome"
       href: index.qmd
+    - text: "Research Projects"
+      href: research.qmd
     - text: "Publications"
       href: publications.qmd
     - text: "Open Science"
       href: open-science.qmd
+    - text: "Posts"
+      href: posts/post_main.qmd
+    - text: "Links"
+      href: links.qmd
     
     right:
-    - icon: file-earmark-fill
+    - text: "{{< fa brands orcid >}}"
       href: https://orcid.org/0000-0002-9720-0038
     - icon: github
       href: https://github.com/annwells/
-    - icon: linkedin
-      href: https://www.linkedin.com/in/annwellsphd/
-    - icon: send
-      href: mailto:ann.wells@jax.org
     - text: "CV"
       href: CV-Ann-2024.pdf
+    - icon: linkedin
+      href: https://www.linkedin.com/in/annwellsphd/
+    - icon: send-fill
+      href: mailto:ann.wells@jax.org
+
 
 format:
   html:

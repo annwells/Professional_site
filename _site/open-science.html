@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ann Wells">
-<meta name="dcterms.date" content="2024-12-28">
+<meta name="dcterms.date" content="2025-01-13">
 
 <title>Bridging the Gap Between Traditional and Computational Biologists Through Open Science – Ann Wells, Ph.D.&nbsp;| Open Science | Data Science | Lupus Researcher</title>
 <style>
@@ -41,6 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,6 +107,10 @@ gtag('config', 'G-41BY0H900V', { 'anonymize_ip': true});
 <span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research Projects</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
@@ -112,17 +118,28 @@ gtag('config', 'G-41BY0H900V', { 'anonymize_ip': true});
     <a class="nav-link active" href="./open-science.html" aria-current="page"> 
 <span class="menu-text">Open Science</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./posts/post_main.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./links.html"> 
+<span class="menu-text">Links</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://orcid.org/0000-0002-9720-0038"> <i class="bi bi-file-earmark-fill" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0002-9720-0038"> 
+<span class="menu-text"><i class="fa-brands fa-orcid" aria-label="orcid"></i></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/annwells/"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./CV-Ann-2024.pdf"> 
+<span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/annwellsphd/"> <i class="bi bi-linkedin" role="img">
@@ -130,13 +147,9 @@ gtag('config', 'G-41BY0H900V', { 'anonymize_ip': true});
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:ann.wells@jax.org"> <i class="bi bi-send" role="img">
+    <a class="nav-link" href="mailto:ann.wells@jax.org"> <i class="bi bi-send-fill" role="img">
 </i> 
 <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./CV-Ann-2024.pdf"> 
-<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -153,7 +166,7 @@ gtag('config', 'G-41BY0H900V', { 'anonymize_ip': true});
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content page-columns page-full column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -174,7 +187,7 @@ gtag('config', 'G-41BY0H900V', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024-12-28</p>
+      <p class="date">2025-01-13</p>
     </div>
   </div>
   
@@ -186,24 +199,125 @@ gtag('config', 'G-41BY0H900V', { 'anonymize_ip': true});
 </header>
 
 
+<!---
+ ::: {.container-fluid}
+--->
+<style type="text/css">
+
+body {
+  background-color: #37013a; /* Make the whole website's background this color */
+  color: #f0f0f0; /* Light gray for readability against the dark background */
+}
+
+</style>
+
+<!---
+ ::: 
+--->
 <p>I believe that open science can be used to bridge the gap between traditional and computational biologists. Current approaches often result in large data dumps and sharing scripts, which are difficult to reproduce, time consuming, and are often missing key pieces of information for full transparency.</p>
 <p>I developed a system that combines data analysis and links to other platforms that house code, data, shiny apps, and anything else you would like to be available. All of these components for a singular project are then packaged into a website that acts as a one stop shop for a research project.</p>
 <p>Building these websites has improved several aspects of my research and data analysis process:</p>
-<ol type="1">
-<li><p>They make it easier to talk with collaborators and share results in an intuitive way.</p></li>
-<li><p>They make it easier to understand the outcome of an experiment and organize data in a way that will be accessible years after the project is complete.</p></li>
-<li><p>They don’t require traditional biologists to understand your code but empower them to understand the steps of analysis that have been taken to arrive at an outcome creating richer discussions.</p></li>
-<li><p>At the end of a project they can easily be publicly hosted for other researchers to investigate the entire analysis that was completed, not just what was presented in the accompanying journal article.</p></li>
+<style>
+/* Styling for numbered list with alignment */
+.justified-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+  counter-reset: item; /* Reset custom numbering */
+}
+
+.justified-list li {
+  margin-bottom: 1rem; /* Add spacing between items */
+  text-align: justify; /* Justify the text */
+  position: relative;  /* Enable positioning of numbers */
+  padding-left: 3rem;  /* Create space for numbers */
+}
+
+.justified-list li:before {
+  content: counter(item) "."; /* Add the number with a period */
+  counter-increment: item;   /* Increment counter for each list item */
+  position: absolute;        /* Position number absolutely */
+  left: 0;                   /* Align number to the left */
+  font-weight: bold;         /* Make numbers bold */
+}
+</style>
+<ol class="justified-list">
+<li>
+They make it easier to talk with collaborators and share results in an intuitive way.
+</li>
+<li>
+They make it easier to understand the outcome of an experiment and organize data in a way that will be accessible years after the project is complete.
+</li>
+<li>
+They don’t require traditional biologists to understand your code but empower them to understand the steps of analysis that have been taken to arrive at an outcome, creating richer discussions.
+</li>
+<li>
+At the end of a project, they can easily be publicly hosted for other researchers to investigate the entire analysis that was completed, not just what was presented in the accompanying journal article.
+</li>
 </ol>
-<div class="card" title="Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice">
-<p><a href="https://storage.googleapis.com/bl6_2dg_rnaseq/index.html">Data Resource Accompanying the paper: Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice</a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/homepage_data_resource_B6_2DG.png" class="img-fluid figure-img"></p>
-<figcaption>Homepage</figcaption>
-</figure>
-</div>
-<p><strong>Ann E. Wells</strong>, John J. Wilson, John D. Sears, Jian Wei, Sarah E. Heuer, Raghav Pandey, Mauro W. Costa, Catherine C. Kaczorowski, Derry C. Roopenian, Chih‑Hao Chang, Gregory W. Carter. (2024) Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice. PLOS ONE 19(3): e0299595. https://doi.org/10.1371/journal.pone.0299595. <a href="https://doi.org/10.1371/journal.pone.0299595" target="_blank">paper link</a></p>
+<div class="card page-columns page-full" title="Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice">
+<style>
+.heading-1{
+  font-size: 350%!important;
+  line-height: 120%!important;
+  color: #a6fd29;
+  text-align: center;
+}
+</style>
+
+<h1 class="heading-1">
+  Example Pages of Exploration Hub
+</h1>
+
+<!-- <p>This carousel is created with HTML and CSS only.</p> -->
+
+<section class="carousel page-columns page-full" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+      <div class="carousel__text">Homepage</div>
+      <div class="carousel__snapper">
+        <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+      <div class="carousel__text">Interactive 3D plots</div>
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+      <div class="carousel__text">Interactive and Downloadable Tables</div>
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+      <div class="carousel__text">Shiny Apps for More Granular Investigation</div>
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+
+<p><strong>Ann E. Wells</strong>, John J. Wilson, John D. Sears, Jian Wei, Sarah E. Heuer, Raghav Pandey, Mauro W. Costa, Catherine C. Kaczorowski, Derry C. Roopenian, Chih‑Hao Chang, Gregory W. Carter. (2024) Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice. PLOS ONE 19(3): e0299595. https://doi.org/10.1371/journal.pone.0299595. <a href="https://doi.org/10.1371/journal.pone.0299595" target="_blank">paper link</a> <a href="https://storage.googleapis.com/bl6_2dg_rnaseq/index.html" target="_blank">Exploration hub link</a></p>
 </div>
 
 
@@ -636,7 +750,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p><br> Copyright © 2024 Ann Wells, Ph.D.<br></p>
+<p><br> Copyright © 2025 Ann Wells, Ph.D.<br></p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

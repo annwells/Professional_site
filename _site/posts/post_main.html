@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ann Wells, Ph.D.&nbsp;– Ann Wells, Ph.D.&nbsp;| Open Science | Data Science | Lupus Researcher</title>
+<title>Lessons I Learned Along the Way – Ann Wells, Ph.D.&nbsp;| Open Science | Data Science | Lupus Researcher</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-41BY0H900V"></script>
 
 <script type="text/javascript">
@@ -78,8 +110,37 @@ gtag('config', 'G-41BY0H900V', { 'anonymize_ip': true});
 </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -89,8 +150,8 @@ gtag('config', 'G-41BY0H900V', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/Ann.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/Ann.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -100,27 +161,27 @@ gtag('config', 'G-41BY0H900V', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./open-science.html"> 
+    <a class="nav-link" href="../open-science.html"> 
 <span class="menu-text">Open Science</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts/post_main.html"> 
+    <a class="nav-link active" href="../posts/post_main.html" aria-current="page"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./links.html"> 
+    <a class="nav-link" href="../links.html"> 
 <span class="menu-text">Links</span></a>
   </li>  
 </ul>
@@ -135,7 +196,7 @@ gtag('config', 'G-41BY0H900V', { 'anonymize_ip': true});
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV-Ann-2024.pdf"> 
+    <a class="nav-link" href="../CV-Ann-2024.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
@@ -159,84 +220,58 @@ gtag('config', 'G-41BY0H900V', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-jolla column-page">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ann Wells, Ph.D.</h1>
+<h1 class="title">Lessons I Learned Along the Way</h1>
 </div>
-<div class="quarto-title-meta column-page">
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
   </div>
-</header><main class="content column-page" id="quarto-document-content">
+  
+
+
+</header>
+
+
 <!---
  ::: {.container-fluid}
 --->
-<div class="p-5 mb-4 bg-light rounded-3 bgimg">
-  <br><br><br><br>
-  <div class="container-fluid py-5">
-    <h1 class="display-5 fw-bold"></h1>
-    <!-- <a href="src/calendar.html" class="btn btn-primary btn-lg" type="button">Book an appointment</a> -->
-  </div>
-</div>
-<p class="lead">
-   <small class="text-hero">Open Science   |   Data Science   |   Systems Biology   |   Lupus Researcher</small>
-</p>
 <style type="text/css">
-.lead {
-    font-family: "Arial bold";
-    text-align: center;
-}
+
 body {
   background-color: #37013a; /* Make the whole website's background this color */
   color: #f0f0f0; /* Light gray for readability against the dark background */
 }
-.bgimg {
-  background-color: #37013a !important; /* New background color */
-  background-image: url('images/Ann.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.hero-quote {
-  font-family: "Zilla Slab";
-  font-color: white;
-  color: white;
-}
-.fw-bold {
-  /* font-family: "Zilla Slab Highlight"; */
-  font-style: bold !important;
-  color: white !important;
-}
+
 </style>
+
 <!---
  ::: 
 --->
-<p><br></p>
-<p>Hi! I’m Ann and this is my website. I have a Ph.D.&nbsp;in Genome Science and Technology and a Master’s in Statistics from the University of Tennessee-Knoxville. Currently, I am a postdoctoral associate at the Jackson Laboratory working in Dr.&nbsp;Gregory Carter’s laboratory. I am wet and dry systems biologist that investigates systemic lupus erythematosus (SLE, lupus) using multiple -omics, multiple tissues, and potential therapeutics to tease out the molecular underpinnings that contribute to SLE progression.</p>
-<p>Additionally, I am a proponent of open science and developing novel ways of disseminating research that is transparent and reproducible while simultaneously bridging the gap between traditional and computational biologists.</p>
-<p>Outside of research I want to empower non-computational biologists to obtain the computational skills necessary to perform preliminary analyses on their own data. I do this through teaching and have also become a software carpentry instructor.</p>
-<p>When I’m not thinking about science I am often riding my bike on the beautiful park loop in Acadia National Park, going for hikes, working out, or generally enjoying the amazing island I live on.</p>
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://orcid.org/0000-0002-9720-0038" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-brands fa-orcid" aria-label="orcid"></i> ORCID</span>
-  </a>
-  <a href="https://www.github.com/annwells" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-brands fa-github" aria-label="github"></i> GitHub</span>
-  </a>
-  <a href="https://annwellsphd.com/CV-Ann-2024.pdf" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-file" aria-label="file"></i> CV</span>
-  </a>
-  <a href="https://www.linkedin.com/in/annwellsphd/" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i> LinkedIn</span>
-  </a>
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+
 </div>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
- <!-- /main -->
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -257,6 +292,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

@@ -1,10 +1,24 @@
 ---
 title: "Ann Wells, Ph.D."
+title-align: center
+about:
+  template: jolla
+  image-shape: rounded
+  links:
+    - text: "{{< fa brands orcid >}} ORCID"
+      url: "https://orcid.org/0000-0002-9720-0038"
+    - text: "{{< fa brands github >}} GitHub"
+      url: "https://www.github.com/annwells"
+    - text: "{{< fa file >}} CV"
+      href: "https://annwellsphd.com/CV-Ann-2024.pdf"
+    - text: "{{< fa brands linkedin >}} LinkedIn"
+      url: "https://www.linkedin.com/in/annwellsphd/"
 ---
+
 
 ```{=html}
 <!---
- ::: {.container-fluid} 
+ ::: {.container-fluid}
 --->
 ```
 
@@ -25,12 +39,19 @@ title: "Ann Wells, Ph.D."
     text-align: center;
 }
 
+body {
+  background-color: #37013a; /* Make the whole website's background this color */
+  color: #f0f0f0; /* Light gray for readability against the dark background */
+}
+
 .bgimg {
+  background-color: #37013a !important; /* New background color */
   background-image: url('images/Ann.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
 }
+
 .hero-quote {
   font-family: "Zilla Slab";
   font-color: white;
@@ -43,6 +64,7 @@ title: "Ann Wells, Ph.D."
   color: white !important;
 }
 </style>
+
 ```
 
 ```{=html}

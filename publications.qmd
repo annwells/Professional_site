@@ -2,15 +2,78 @@
 title: "Publications"
 date: last-modified
 date-format: iso 
-format: 
-  dashboard: 
-    scrolling: true
+page-layout-class: dashboard-page
 ---
+
+```{=html}
+<!---
+ ::: {.container-fluid}
+--->
+```
+
+```{=html}
+<style type="text/css">
+
+body {
+  background-color: #37013a; /* Make the whole website's background this color */
+  color: #f0f0f0; /* Light gray for readability against the dark background */
+}
+
+</style>
+
+```
+
+```{=html}
+<!---
+ ::: 
+--->
+```
+
+:::{.panel-tabset .nav-pills}
+# All
+
+**2024**
+
+**Ann E. Wells**, John J. Wilson, John D. Sears, Jian Wei, Sarah E. Heuer, Raghav Pandey, Mauro W. Costa, Catherine C. Kaczorowski, Derry C. Roopenian, Chih‑Hao Chang, Gregory W. Carter. (2024) Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice. PLOS ONE 19(3): e0299595. https://doi.org/10.1371/journal.pone.0299595. [paper link](https://doi.org/10.1371/journal.pone.0299595){target="_blank"} [Exploration hub link](https://storage.googleapis.com/bl6_2dg_rnaseq/index.html){target="_blank"}
+
+---
+
+**2022**
+
+**Ann E. Wells**, William T. Barrington, Stephen Dearth, Nikhil Milind, Gregory W. Carter, David W. Threadgill, Shawn Campagna, Brynn Voy. Tissue Level Strain and Sex‑by‑Strain Interactions Reveal Unique Metabolite and Clustering Profiles Using Untargeted Liquid Chromatography‑Mass Spectrometry Across Adipose, Skeletal Muscle, and Liver Tissue in Mice Fed a Standard Chow Diet. Metabolites. 2022 Apr 8;12(4):337. doi: 10.3390/metabo12040337. PMID: 35448524; PMCID: PMC9031494. [paper link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9031494/){target="_blank"}
+
+---
+
+**2021**
+
+Tyler AL, Emerson J, El Kassaby B, **Wells AE**, Philip VM, Carter GW. The Combined Analysis of Pleiotropy and Epistasis (CAPE). Methods Mol Biol. 2021;2212:55‑67. doi: 10.1007/978‑1‑0716‑0947‑7_5. PMID: 33733350. [paper link](https://pubmed.ncbi.nlm.nih.gov/33733350/){target="_blank"}
+
+Tyler AL, El Kassaby B, Kolishovski G, Emerson J, **Wells AE**, Matthew Mahoney J, Carter GW. Effects of kinship correction on inflation of genetic interaction statistics in commonly used mouse populations. G3 (Bethesda). 2021 Jul 14;11(7):jkab131. doi: 10.1093/g3journal/jkab131. PMID: 33892506; PMCID: PMC8496251. [paper link](https://pubmed.ncbi.nlm.nih.gov/33892506/){target="_blank"}
+
+---
+
+**2018**
+
+**Ann E. Wells**, William T. Barrington, Stephen Dearth, Amanda May, David W. Threadgill, Shawn Campagna, Brynn Voy. Tissue Level Diet and Sex‑by‑Diet Interactions Reveal Unique Metabolite and Clustering Profiles Using Untargeted Liquid Chromatography‑Mass Spectrometry on Adipose, Skeletal Muscle, and Liver tissue in C57BL6/J Mice. J Proteome Res. 2018 Mar 2;17(3):1077‑1090. doi: 10.1021/acs.jproteome.7b00750. Epub 2018 Feb 2. PMID: 29373032. [paper link](https://pubmed.ncbi.nlm.nih.gov/29373032/){target="_blank"}
+
+William T. Barrington, Phillip Wulfridge, **Ann E. Wells**, Carolina Mantilla Rojas, Selene Y.F. Howe, Amie Perry, Kunjie Hua, Michael Pellizzon, Kasper D. Hansen, Brynn Voy, Brian J. Bennett, Daniel Pomp, Andrew P. Feinberg, David W. Threadgill. (2017) Optimizing Metabolic Health Through Precision Dietetics in Mice. Genetics. 2018 Jan;208(1):399‑417. doi: 10.1534/genetics.117.300536. Epub 2017 Nov 20. PMID: 29158425; PMCID: PMC5753872. [paper link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753872/){target="_blank"}
+
+---
+
+**2011**
+
+**A. E. Wells**, S. A. Bewick, K. L. Kruse, R. C. Ward and J. P. Biggerstaff, "Modeling the effect of soluble fibrin on the immune‑tumor interaction." Proceedings of the 2011 Biomedical Sciences and Engineering Conference: Image Informatics and Analytics in Biomedicine, Knoxville, TN, USA, 2011, pp. 1‑4, doi: 10.1109/BSEC.2011.5872324. [paper link](https://ieeexplore.ieee.org/document/5872324){target="_blank"}
+
+---
+
+**2010**
+
+**A. E. Wells**, S. A. Bewick, K. L. Kruse, R. C. Ward and J. P. Biggerstaff, "Modeling the effect of tumor cell growth when in the presence of natural killer cells." 2010 Biomedical Sciences and Engineering Conference, Oak Ridge, TN, USA, 2010, pp. 1‑4, doi: 10.1109/BSEC.2010.5510820. [paper link](https://ieeexplore.ieee.org/document/5510820){target="_blank"}
 
 # 2024
 
 ::: {.card title="Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice"}
-**Ann E. Wells**, John J. Wilson, John D. Sears, Jian Wei, Sarah E. Heuer, Raghav Pandey, Mauro W. Costa, Catherine C. Kaczorowski, Derry C. Roopenian, Chih‑Hao Chang, Gregory W. Carter. (2024) Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice. PLOS ONE 19(3): e0299595. https://doi.org/10.1371/journal.pone.0299595. [paper link](https://doi.org/10.1371/journal.pone.0299595){target=_blank}
+**Ann E. Wells**, John J. Wilson, John D. Sears, Jian Wei, Sarah E. Heuer, Raghav Pandey, Mauro W. Costa, Catherine C. Kaczorowski, Derry C. Roopenian, Chih‑Hao Chang, Gregory W. Carter. (2024) Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice. PLOS ONE 19(3): e0299595. https://doi.org/10.1371/journal.pone.0299595. [paper link](https://doi.org/10.1371/journal.pone.0299595){target="_blank"} [Exploration hub link](https://storage.googleapis.com/bl6_2dg_rnaseq/index.html){target="_blank"}
 
 ## Abstract
 
@@ -26,7 +89,7 @@ format:
 # 2022
 
 ::: {.card title="Tissue Level Strain and Sex‑by‑Strain Interactions Reveal Unique Metabolite and Clustering Profiles Using Untargeted Liquid Chromatography‑Mass Spectrometry Across Adipose, Skeletal Muscle, and Liver Tissue in Mice Fed a Standard Chow Diet"}
-**Ann E. Wells**, William T. Barrington, Stephen Dearth, Nikhil Milind, Gregory W. Carter, David W. Threadgill, Shawn Campagna, Brynn Voy. Tissue Level Strain and Sex‑by‑Strain Interactions Reveal Unique Metabolite and Clustering Profiles Using Untargeted Liquid Chromatography‑Mass Spectrometry Across Adipose, Skeletal Muscle, and Liver Tissue in Mice Fed a Standard Chow Diet. Metabolites. 2022 Apr 8;12(4):337. doi: 10.3390/metabo12040337. PMID: 35448524; PMCID: PMC9031494. [paper link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9031494/){target=_blank}
+**Ann E. Wells**, William T. Barrington, Stephen Dearth, Nikhil Milind, Gregory W. Carter, David W. Threadgill, Shawn Campagna, Brynn Voy. Tissue Level Strain and Sex‑by‑Strain Interactions Reveal Unique Metabolite and Clustering Profiles Using Untargeted Liquid Chromatography‑Mass Spectrometry Across Adipose, Skeletal Muscle, and Liver Tissue in Mice Fed a Standard Chow Diet. Metabolites. 2022 Apr 8;12(4):337. doi: 10.3390/metabo12040337. PMID: 35448524; PMCID: PMC9031494. [paper link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9031494/){target="_blank"}
 
 ## Abstract
 
@@ -36,33 +99,37 @@ Genetics play an important role in the development of metabolic diseases. Howeve
 # 2021
 
 ::: {.card title="The Combined Analysis of Pleiotropy and Epistasis (CAPE)"}
-Tyler AL, Emerson J, El Kassaby B, **Wells AE**, Philip VM, Carter GW. The Combined Analysis of Pleiotropy and Epistasis (CAPE). Methods Mol Biol. 2021;2212:55‑67. doi: 10.1007/978‑1‑0716‑0947‑7_5. PMID: 33733350. [paper link](https://pubmed.ncbi.nlm.nih.gov/33733350/){target=_blank}
+Tyler AL, Emerson J, El Kassaby B, **Wells AE**, Philip VM, Carter GW. The Combined Analysis of Pleiotropy and Epistasis (CAPE). Methods Mol Biol. 2021;2212:55‑67. doi: 10.1007/978‑1‑0716‑0947‑7_5. PMID: 33733350. [paper link](https://pubmed.ncbi.nlm.nih.gov/33733350/){target="_blank"}
 
 ## Abstract
 
-Epistasis, or gene-gene interaction, contributes substantially to trait variation in organisms ranging from yeast to humans, and modeling epistasis directly is critical to understanding the genotype-phenotype map. However, inference of genetic interactions is challenging compared to inference of individual allele effects due to low statistical power. Furthermore, genetic interactions can appear inconsistent across different quantitative traits, presenting a challenge for the interpretation of detected interactions. Here we present a method called the Combined Analysis of Pleiotropy and Epistasis (CAPE) that combines information across multiple quantitative traits to infer directed epistatic interactions. By combining information across multiple traits, CAPE not only increases power to detect genetic interactions but also interprets these interactions across traits to identify a single interaction that is consistent across all observed data. This method generates informative, interpretable interaction networks that explain how variants interact with each other to influence groups of related traits. This method could potentially be used to link genetic variants to gene expression, physiological endophenotypes, and higher-level disease traits. 
+Epistasis, or gene-gene interaction, contributes substantially to trait variation in organisms ranging from yeast to humans, and modeling epistasis directly is critical to understanding the genotype-phenotype map. However, inference of genetic interactions is challenging compared to inference of individual allele effects due to low statistical power. Furthermore, genetic interactions can appear inconsistent across different quantitative traits, presenting a challenge for the interpretation of detected interactions. Here we present a method called the Combined Analysis of Pleiotropy and Epistasis (CAPE) that combines information across multiple quantitative traits to infer directed epistatic interactions. By combining information across multiple traits, CAPE not only increases power to detect genetic interactions but also interprets these interactions across traits to identify a single interaction that is consistent across all observed data. This method generates informative, interpretable interaction networks that explain how variants interact with each other to influence groups of related traits. This method could potentially be used to link genetic variants to gene expression, physiological endophenotypes, and higher-level disease traits.
 :::
 
+---
+
 ::: {.card title="Effects of kinship correction on inflation of genetic interaction statistics in commonly used mouse populations"}
-Tyler AL, El Kassaby B, Kolishovski G, Emerson J, **Wells AE**, Matthew Mahoney J, Carter GW. Effects of kinship correction on inflation of genetic interaction statistics in commonly used mouse populations. G3 (Bethesda). 2021 Jul 14;11(7):jkab131. doi: 10.1093/g3journal/jkab131. PMID: 33892506; PMCID: PMC8496251. [paper link](https://pubmed.ncbi.nlm.nih.gov/33892506/){target=_blank}
+Tyler AL, El Kassaby B, Kolishovski G, Emerson J, **Wells AE**, Matthew Mahoney J, Carter GW. Effects of kinship correction on inflation of genetic interaction statistics in commonly used mouse populations. G3 (Bethesda). 2021 Jul 14;11(7):jkab131. doi: 10.1093/g3journal/jkab131. PMID: 33892506; PMCID: PMC8496251. [paper link](https://pubmed.ncbi.nlm.nih.gov/33892506/){target="_blank"}
 
 ## Abstract
 
-It is well understood that variation in relatedness among individuals, or kinship, can lead to false genetic associations. Multiple methods have been developed to adjust for kinship while maintaining power to detect true associations. However, relatively unstudied are the effects of kinship on genetic interaction test statistics. Here, we performed a survey of kinship effects on studies of six commonly used mouse populations. We measured inflation of main effect test statistics, genetic interaction test statistics, and interaction test statistics reparametrized by the Combined Analysis of Pleiotropy and Epistasis (CAPE). We also performed linear mixed model (LMM) kinship corrections using two types of kinship matrix: an overall kinship matrix calculated from the full set of genotyped markers, and a reduced kinship matrix, which left out markers on the chromosome(s) being tested. We found that test statistic inflation varied across populations and was driven largely by linkage disequilibrium. In contrast, there was no observable inflation in the genetic interaction test statistics. CAPE statistics were inflated at a level in between that of the main effects and the interaction effects. The overall kinship matrix overcorrected the inflation of main effect statistics relative to the reduced kinship matrix. The two types of kinship matrices had similar effects on the interaction statistics and CAPE statistics, although the overall kinship matrix trended toward a more severe correction. In conclusion, we recommend using an LMM kinship correction for both main effects and genetic interactions and further recommend that the kinship matrix be calculated from a reduced set of markers in which the chromosomes being tested are omitted from the calculation. This is particularly important in populations with substantial population structure, such as recombinant inbred lines in which genomic replicates are used. 
+It is well understood that variation in relatedness among individuals, or kinship, can lead to false genetic associations. Multiple methods have been developed to adjust for kinship while maintaining power to detect true associations. However, relatively unstudied are the effects of kinship on genetic interaction test statistics. Here, we performed a survey of kinship effects on studies of six commonly used mouse populations. We measured inflation of main effect test statistics, genetic interaction test statistics, and interaction test statistics reparametrized by the Combined Analysis of Pleiotropy and Epistasis (CAPE). We also performed linear mixed model (LMM) kinship corrections using two types of kinship matrix: an overall kinship matrix calculated from the full set of genotyped markers, and a reduced kinship matrix, which left out markers on the chromosome(s) being tested. We found that test statistic inflation varied across populations and was driven largely by linkage disequilibrium. In contrast, there was no observable inflation in the genetic interaction test statistics. CAPE statistics were inflated at a level in between that of the main effects and the interaction effects. The overall kinship matrix overcorrected the inflation of main effect statistics relative to the reduced kinship matrix. The two types of kinship matrices had similar effects on the interaction statistics and CAPE statistics, although the overall kinship matrix trended toward a more severe correction. In conclusion, we recommend using an LMM kinship correction for both main effects and genetic interactions and further recommend that the kinship matrix be calculated from a reduced set of markers in which the chromosomes being tested are omitted from the calculation. This is particularly important in populations with substantial population structure, such as recombinant inbred lines in which genomic replicates are used.
 :::
 
 # 2018
 
 ::: {.card title="Tissue Level Diet and Sex‑by‑Diet Interactions Reveal Unique Metabolite and Clustering Profiles Using Untargeted Liquid Chromatography‑Mass Spectrometry on Adipose, Skeletal Muscle, and Liver tissue in C57BL6/J Mice"}
-**Ann E. Wells**, William T. Barrington, Stephen Dearth, Amanda May, David W. Threadgill, Shawn Campagna, Brynn Voy. Tissue Level Diet and Sex‑by‑Diet Interactions Reveal Unique Metabolite and Clustering Profiles Using Untargeted Liquid Chromatography‑Mass Spectrometry on Adipose, Skeletal Muscle, and Liver tissue in C57BL6/J Mice. J Proteome Res. 2018 Mar 2;17(3):1077‑1090. doi: 10.1021/acs.jproteome.7b00750. Epub 2018 Feb 2. PMID: 29373032. [paper link](https://pubmed.ncbi.nlm.nih.gov/29373032/){target=_blank}
+**Ann E. Wells**, William T. Barrington, Stephen Dearth, Amanda May, David W. Threadgill, Shawn Campagna, Brynn Voy. Tissue Level Diet and Sex‑by‑Diet Interactions Reveal Unique Metabolite and Clustering Profiles Using Untargeted Liquid Chromatography‑Mass Spectrometry on Adipose, Skeletal Muscle, and Liver tissue in C57BL6/J Mice. J Proteome Res. 2018 Mar 2;17(3):1077‑1090. doi: 10.1021/acs.jproteome.7b00750. Epub 2018 Feb 2. PMID: 29373032. [paper link](https://pubmed.ncbi.nlm.nih.gov/29373032/){target="_blank"}
 
 ## Abstract
 
-Dietary intervention is commonly used for weight loss or to improve health, as diet-induced obesity increases the risk of developing type 2 diabetes, hypertension, cardiovascular disease, stroke, osteoarthritis, and certain cancers. Various dietary patterns are associated with effects on health, yet little is known about the effects of diet at the tissue level. Using untargeted metabolomics, this study aimed to identify changes in water-soluble metabolites in C57BL/6J males and females fed one of five diets (Japanese, ketogenic, Mediterranean, American, and standard mouse chow) for 7 months. Metabolite abundance was examined in liver, skeletal muscle, and adipose tissue for sex, diet, and sex-by-diet interaction. Analysis of variance (ANOVA) suggests that liver tissue has the most metabolic plasticity under dietary changes compared with adipose and skeletal muscle. The ketogenic diet was distinguishable from other diets for both males and females according to partial least-squares discriminant analysis. Pathway analysis revealed that the majority of pathways affected play an important role in amino acid metabolism in liver tissue. Not surprisingly, amino acid profiles were affected by dietary patterns in skeletal muscle. Few metabolites were significantly altered in adipose tissue relative to skeletal muscle and liver tissue, indicating that it was largely stable, regardless of diet alterations. The results of this study revealed that the ketogenic diet had the largest effect on physiology, particularly for females. Furthermore, metabolomics analysis revealed that diet affects metabolites in a tissue-specific manner and that liver was most sensitive to dietary changes. 
+Dietary intervention is commonly used for weight loss or to improve health, as diet-induced obesity increases the risk of developing type 2 diabetes, hypertension, cardiovascular disease, stroke, osteoarthritis, and certain cancers. Various dietary patterns are associated with effects on health, yet little is known about the effects of diet at the tissue level. Using untargeted metabolomics, this study aimed to identify changes in water-soluble metabolites in C57BL/6J males and females fed one of five diets (Japanese, ketogenic, Mediterranean, American, and standard mouse chow) for 7 months. Metabolite abundance was examined in liver, skeletal muscle, and adipose tissue for sex, diet, and sex-by-diet interaction. Analysis of variance (ANOVA) suggests that liver tissue has the most metabolic plasticity under dietary changes compared with adipose and skeletal muscle. The ketogenic diet was distinguishable from other diets for both males and females according to partial least-squares discriminant analysis. Pathway analysis revealed that the majority of pathways affected play an important role in amino acid metabolism in liver tissue. Not surprisingly, amino acid profiles were affected by dietary patterns in skeletal muscle. Few metabolites were significantly altered in adipose tissue relative to skeletal muscle and liver tissue, indicating that it was largely stable, regardless of diet alterations. The results of this study revealed that the ketogenic diet had the largest effect on physiology, particularly for females. Furthermore, metabolomics analysis revealed that diet affects metabolites in a tissue-specific manner and that liver was most sensitive to dietary changes.
 :::
 
+---
+
 ::: {.card title="Optimizing Metabolic Health Through Precision Dietetics in Mice. Genetics"}
-William T. Barrington, Phillip Wulfridge, **Ann E. Wells**, Carolina Mantilla Rojas, Selene Y.F. Howe, Amie Perry, Kunjie Hua, Michael Pellizzon, Kasper D. Hansen, Brynn Voy, Brian J. Bennett, Daniel Pomp, Andrew P. Feinberg, David W. Threadgill. (2017) Optimizing Metabolic Health Through Precision Dietetics in Mice. Genetics. 2018 Jan;208(1):399‑417. doi: 10.1534/genetics.117.300536. Epub 2017 Nov 20. PMID: 29158425; PMCID: PMC5753872. [paper link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753872/){target=_blank}
+William T. Barrington, Phillip Wulfridge, **Ann E. Wells**, Carolina Mantilla Rojas, Selene Y.F. Howe, Amie Perry, Kunjie Hua, Michael Pellizzon, Kasper D. Hansen, Brynn Voy, Brian J. Bennett, Daniel Pomp, Andrew P. Feinberg, David W. Threadgill. (2017) Optimizing Metabolic Health Through Precision Dietetics in Mice. Genetics. 2018 Jan;208(1):399‑417. doi: 10.1534/genetics.117.300536. Epub 2017 Nov 20. PMID: 29158425; PMCID: PMC5753872. [paper link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753872/){target="_blank"}
 
 ## Abstract
 
@@ -72,7 +139,7 @@ The incidence of diet-induced metabolic disease has soared over the last half-ce
 # 2011
 
 ::: {.card title="Modeling the effect of soluble fibrin on the immune‑tumor interaction"}
-**A. E. Wells**, S. A. Bewick, K. L. Kruse, R. C. Ward and J. P. Biggerstaff, "Modeling the effect of soluble fibrin on the immune‑tumor interaction." Proceedings of the 2011 Biomedical Sciences and Engineering Conference: Image Informatics and Analytics in Biomedicine, Knoxville, TN, USA, 2011, pp. 1‑4, doi: 10.1109/BSEC.2011.5872324. [paper link](https://ieeexplore.ieee.org/document/5872324){target=_blank}
+**A. E. Wells**, S. A. Bewick, K. L. Kruse, R. C. Ward and J. P. Biggerstaff, "Modeling the effect of soluble fibrin on the immune‑tumor interaction." Proceedings of the 2011 Biomedical Sciences and Engineering Conference: Image Informatics and Analytics in Biomedicine, Knoxville, TN, USA, 2011, pp. 1‑4, doi: 10.1109/BSEC.2011.5872324. [paper link](https://ieeexplore.ieee.org/document/5872324){target="_blank"}
 
 ## Abstract
 
@@ -82,9 +149,10 @@ Cancer is the second leading cause of death in the United States. It is believed
 # 2010
 
 ::: {.card title="Modeling the effect of tumor cell growth when in the presence of natural killer cells"}
-**A. E. Wells**, S. A. Bewick, K. L. Kruse, R. C. Ward and J. P. Biggerstaff, "Modeling the effect of tumor cell growth when in the presence of natural killer cells." 2010 Biomedical Sciences and Engineering Conference, Oak Ridge, TN, USA, 2010, pp. 1‑4, doi: 10.1109/BSEC.2010.5510820. [paper link](https://ieeexplore.ieee.org/document/5510820){target=_blank}
+**A. E. Wells**, S. A. Bewick, K. L. Kruse, R. C. Ward and J. P. Biggerstaff, "Modeling the effect of tumor cell growth when in the presence of natural killer cells." 2010 Biomedical Sciences and Engineering Conference, Oak Ridge, TN, USA, 2010, pp. 1‑4, doi: 10.1109/BSEC.2010.5510820. [paper link](https://ieeexplore.ieee.org/document/5510820){target="_blank"}
 
 ## Abstract
 
 Cancer is the second leading cause of death in the United States. It is believed that many humans develop cancers in their lifetime, but the immune system kills these cells without the need for outside treatments. In cancer progression, however, tumor cells may evade the immune system. The mechanism is not fully understood. Natural killer cells (NK) are one of many immune cells capable of tumor cell lysis. Specifically, the natural cytotoxicity receptors NKp46, NKp44 and NKp30, and the c-type lectin receptor NKG2D on NK cells, are crucial in lysing tumor cells. MHC Class-1 related chain A (MICA), one of several possible activating ligands for NKG2D, is broadly expressed on human tumor cells of epithelial origin. MICA, in combination with various matrix metalloproteinases (MMPs), appears to be involved in both tumor elimination and tumor growth. Tumor growth tends to increase in the presence of soluble MICA but decreases when high levels of MICA bind to a tumor cell. MMPs have been implicated in the shedding of MICA from the tumor surface. A mathematical model was developed to simulate the interactions between NK cells and tumor cells in the presence of MMPs. A set of twelve continuous partial differential equations were created based on data from published literature and solved. These simultaneous equations describe the relationship between twelve state variables and various parameters which will be determined through experimentation. Results of model simulations with three different initial concentration values of MMPs show how this biochemical affects the ability of NK cells to attack tumor cells.
+:::
 :::

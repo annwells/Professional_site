@@ -1,0 +1,27 @@
+---
+title: "Research Projects"
+---
+```{=html}
+<!---
+ ::: {.container-fluid}
+--->
+```
+
+```{=html}
+<style type="text/css">
+
+body {
+  background-color: #37013a; /* Make the whole website's background this color */
+  color: #f0f0f0; /* Light gray for readability against the dark background */
+}
+
+</style>
+```
+
+```{=html}
+<!---
+ ::: 
+--->
+```
+
+![](images/FreeVector-Under-Construction-Graphics.jpg)

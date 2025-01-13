@@ -8,25 +8,136 @@ format:
     toc: true
 ---
 
+```{=html}
+<!---
+ ::: {.container-fluid}
+--->
+```
+
+```{=html}
+<style type="text/css">
+
+body {
+  background-color: #37013a; /* Make the whole website's background this color */
+  color: #f0f0f0; /* Light gray for readability against the dark background */
+}
+
+</style>
+
+```
+
+```{=html}
+<!---
+ ::: 
+--->
+```
+
 I believe that open science can be used to bridge the gap between traditional and computational biologists. Current approaches often result in large data dumps and sharing scripts, which are difficult to reproduce, time consuming, and are often missing key pieces of information for full transparency.
 
 I developed a system that combines data analysis and links to other platforms that house code, data, shiny apps, and anything else you would like to be available. All of these components for a singular project are then packaged into a website that acts as a one stop shop for a research project.
 
 Building these websites has improved several aspects of my research and data analysis process:
+```{=HTML}
+<style>
+/* Styling for numbered list with alignment */
+.justified-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+  counter-reset: item; /* Reset custom numbering */
+}
 
-1.  They make it easier to talk with collaborators and share results in an intuitive way.
+.justified-list li {
+  margin-bottom: 1rem; /* Add spacing between items */
+  text-align: justify; /* Justify the text */
+  position: relative;  /* Enable positioning of numbers */
+  padding-left: 3rem;  /* Create space for numbers */
+}
 
-2.  They make it easier to understand the outcome of an experiment and organize data in a way that will be accessible years after the project is complete.
+.justified-list li:before {
+  content: counter(item) "."; /* Add the number with a period */
+  counter-increment: item;   /* Increment counter for each list item */
+  position: absolute;        /* Position number absolutely */
+  left: 0;                   /* Align number to the left */
+  font-weight: bold;         /* Make numbers bold */
+}
+</style>
+```
 
-3.  They don’t require traditional biologists to understand your code but empower them to understand the steps of analysis that have been taken to arrive at an outcome creating richer discussions.
+<ol class="justified-list">
+  <li>They make it easier to talk with collaborators and share results in an intuitive way.</li>
+  <li>They make it easier to understand the outcome of an experiment and organize data in a way that will be accessible years after the project is complete.</li>
+  <li>They don’t require traditional biologists to understand your code but empower them to understand the steps of analysis that have been taken to arrive at an outcome, creating richer discussions.</li>
+  <li>At the end of a project, they can easily be publicly hosted for other researchers to investigate the entire analysis that was completed, not just what was presented in the accompanying journal article.</li>
+</ol>
 
-4.  At the end of a project they can easily be publicly hosted for other researchers to investigate the entire analysis that was completed, not just what was presented in the accompanying journal article.
+
 
 ::: {.card title="Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice"}
 
-[Data Resource Accompanying the paper: Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice](https://storage.googleapis.com/bl6_2dg_rnaseq/index.html)
+```{=HTML}
+<style>
+.heading-1{
+  font-size: 350%!important;
+  line-height: 120%!important;
+  color: #a6fd29;
+  text-align: center;
+}
+</style>
 
-![Homepage](images/homepage_data_resource_B6_2DG.png)
+<h1 class="heading-1">
+  Example Pages of Exploration Hub
+</h1>
 
-**Ann E. Wells**, John J. Wilson, John D. Sears, Jian Wei, Sarah E. Heuer, Raghav Pandey, Mauro W. Costa, Catherine C. Kaczorowski, Derry C. Roopenian, Chih‑Hao Chang, Gregory W. Carter. (2024) Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice. PLOS ONE 19(3): e0299595. https://doi.org/10.1371/journal.pone.0299595. [paper link](https://doi.org/10.1371/journal.pone.0299595){target="_blank"}
+<!-- <p>This carousel is created with HTML and CSS only.</p> -->
+
+<section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+      <div class="carousel__text">Homepage</div>
+      <div class="carousel__snapper">
+        <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+      <div class="carousel__text">Interactive 3D plots</div>
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+      <div class="carousel__text">Interactive and Downloadable Tables</div>
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+      <div class="carousel__text">Shiny Apps for More Granular Investigation</div>
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+
+```
+
+**Ann E. Wells**, John J. Wilson, John D. Sears, Jian Wei, Sarah E. Heuer, Raghav Pandey, Mauro W. Costa, Catherine C. Kaczorowski, Derry C. Roopenian, Chih‑Hao Chang, Gregory W. Carter. (2024) Transcriptome Analysis Reveals Organ‑Specific Effects of 2‑Deoxyglucose Treatment in Healthy Mice. PLOS ONE 19(3): e0299595. https://doi.org/10.1371/journal.pone.0299595. [paper link](https://doi.org/10.1371/journal.pone.0299595){target="_blank"} [Exploration hub link](https://storage.googleapis.com/bl6_2dg_rnaseq/index.html){target="_blank"}
 :::
